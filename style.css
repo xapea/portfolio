@@ -17,38 +17,25 @@ body {
 }
 
 .nav {
-  background-color: #222;
-  width: 100%;
-  height: 40px;
+  background-color: rgba(204, 204, 204, 0.8);
+  border-bottom: solid 2px #444;
+  width: 90%;
+  height: 60px;
   position: fixed;
-  z-index: 500;
+  z-index: 1800;
   text-align: center;
-  line-height: 32px;
+  line-height: 60px;
 }
 .nav h4 {
-  color: #eee;
-}
-
-.header {
-  width: 100%;
-  height: 300px;
-}
-.header .portrait {
-  background-image: url(https://fiverr-res.cloudinary.com/images/t_smartwm/t_main1,q_auto,f_auto,q_auto,f_auto/attachments/delivery/asset/6faf04659e316ead6b0ee8df8361a812-1587026686/Illustration2/draw-you-a-cute-doodle-portrait.png);
-  background-position: center bottom;
-  background-size: 500px 500px;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 550px;
-  position: fixed;
-  z-index: -100;
+  font-size: 18px;
+  color: #444;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 100px 0px 300px 0px;
+  padding: 300px 0px 300px 0px;
   background-color: rgba(0, 0, 0, 0);
   width: 100%;
   max-width: 900px;
@@ -561,14 +548,13 @@ body {
   height: 30px;
   flex-shrink: 0;
   border-radius: 50%;
-  border: solid 2px #444;
   background-color: #bbb;
   color: #444;
   text-align: center;
   line-height: 23px;
   font-size: 22px;
   text-decoration: none;
-  position: fixed;
+  position: absolute;
   right: 20px;
   top: 20px;
 }
@@ -643,14 +629,13 @@ body {
   height: 30px;
   flex-shrink: 0;
   border-radius: 50%;
-  border: solid 2px #444;
   background-color: #bbb;
   color: #444;
   text-align: center;
   line-height: 23px;
   font-size: 22px;
   text-decoration: none;
-  position: fixed;
+  position: absolute;
   right: 20px;
   top: 20px;
 }
@@ -725,14 +710,13 @@ body {
   height: 30px;
   flex-shrink: 0;
   border-radius: 50%;
-  border: solid 2px #444;
   background-color: #bbb;
   color: #444;
   text-align: center;
   line-height: 23px;
   font-size: 22px;
   text-decoration: none;
-  position: fixed;
+  position: absolute;
   right: 20px;
   top: 20px;
 }
@@ -798,14 +782,13 @@ body {
   height: 30px;
   flex-shrink: 0;
   border-radius: 50%;
-  border: solid 2px #444;
   background-color: #bbb;
   color: #444;
   text-align: center;
   line-height: 23px;
   font-size: 22px;
   text-decoration: none;
-  position: fixed;
+  position: absolute;
   right: 20px;
   top: 20px;
 }
@@ -871,14 +854,13 @@ body {
   height: 30px;
   flex-shrink: 0;
   border-radius: 50%;
-  border: solid 2px #444;
   background-color: #bbb;
   color: #444;
   text-align: center;
   line-height: 23px;
   font-size: 22px;
   text-decoration: none;
-  position: fixed;
+  position: absolute;
   right: 20px;
   top: 20px;
 }
@@ -955,14 +937,13 @@ body {
   height: 30px;
   flex-shrink: 0;
   border-radius: 50%;
-  border: solid 2px #444;
   background-color: #bbb;
   color: #444;
   text-align: center;
   line-height: 23px;
   font-size: 22px;
   text-decoration: none;
-  position: fixed;
+  position: absolute;
   right: 20px;
   top: 20px;
 }
@@ -1723,4 +1704,32 @@ body {
 }
 .sec-a:hover .s-box {
   background-color: #222;
+}
+
+@media screen and (max-width: 900px) {
+  #card1 {
+    padding: 50px 20px;
+  }
+  #card1 h1 {
+    font-size: 40px;
+  }
+  #card1 .pic {
+    height: 2200px;
+  }
+}
+@media screen and (max-width: 750px) {
+  #card1 .pic {
+    height: 2000px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #card1 {
+    padding: 70px 20px;
+  }
+  #card1 h1 {
+    font-size: 30px;
+  }
+  #card1 .pic {
+    height: 1500px;
+  }
 }
